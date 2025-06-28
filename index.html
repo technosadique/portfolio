@@ -1,130 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mohammad Sadique | Senior Web Developer</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mohammad Sadique - Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    .badge { font-size: 0.9rem; }
+    .card-title { font-weight: 600; }
+    .bg-dark-blue { background-color: #1b1f3a; }
+  </style>
 </head>
 <body>
-  <header>
+
+  <!-- Hero Section -->
+  <section class="bg-dark text-white text-center py-5">
     <div class="container">
-      <h1>Mohammad Sadique</h1>
-      <p>Senior Web Developer | PHP &#x2022; Laravel &#x2022; Angular &#x2022; MySQL</p>
-      <nav>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <section id="about" class="container">
-    <h2>About Me</h2>
-    <p>I am a results-driven Senior PHP Developer with over 10 years of experience in designing, developing, and maintaining dynamic web applications using PHP and MySQL. I specialize in modern frameworks like CodeIgniter, Laravel, and Symfony, and I have a proven track record of optimizing databases and creating RESTful APIs to deliver high-quality solutions</section>
-
-  <section id="skills" class="container">
-    <h2>Skills</h2>
-    <div class="skills-list">        
-		 <span>PHP</span>
-		 <span>HTML</span>
-		 <span>CSS</span>
-		  <span>Laravel</span>
-		  <span>Codeigniter</span>
-		  <span>Symfony</span>
-		  <span>Angular</span>
-		  <span>MySQL</span>
-		  <span>JavaScript</span>
-		  <span>Ajax</span>
-		  <span>MongoDB</span>
-		  <span>REST APIs</span>
-		  <span>Payment Gateways</span>
-		  <span>Postman</span>
-		  <span>chatGPT</span>
-		  <span>MVC</span>
-		  <span>Elasticsearch</span>
-		  <span>Git & GitHub</span>	
+      <h1 class="display-4 fw-bold">Mohammad Sadique</h1>
+      <p class="lead">Senior Web Developer | PHP · Laravel · Angular · MySQL</p>
+      <a href="#projects" class="btn btn-outline-light btn-lg me-2">View Projects</a>
+      <a href="#contact" class="btn btn-primary btn-lg">Contact Me</a>
     </div>
   </section>
 
-  <section id="projects" class="container">
-    <h2>Projects</h2>
+  <!-- About Section -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="mb-4">About Me</h2>
+      <p class="lead">
+        I am a results-driven Senior PHP Developer with over 10+ years of experience in designing, developing, and maintaining dynamic web applications using PHP and MySQL. 
+        I specialize in modern frameworks like CodeIgniter, Laravel, and Symfony, and I have a proven track record of optimizing databases and creating RESTful APIs to deliver high-quality solutions.
+      </p>
+    </div>
+  </section>
 
-    <div class="project-card">
-      <h3>Employee Management System</h3>
-      <p>An employee management application built using Angular, TypeScript, Bootstrap, HTML, CSS, and REST APIs.</p>
-      <ul>
-        <li>User login and registration</li>
-        <li>Manage employees and their assigned projects</li>		
-      </ul>
-      <a href="#">Live Demo</a> |
-      <a href="https://github.com/technosadique/angular19/tree/master/employee_app">GitHub Repo</a>
+  <!-- Skills Section -->
+  <section class="bg-light py-5">
+    <div class="container">
+      <h2 class="mb-4">Skills</h2>
+      <div class="d-flex flex-wrap gap-2">
+        <span class="badge bg-primary">PHP</span>
+        <span class="badge bg-secondary">HTML</span>
+        <span class="badge bg-success">CSS</span>
+        <span class="badge bg-danger">Laravel</span>
+        <span class="badge bg-info text-dark">CodeIgniter</span>
+        <span class="badge bg-warning text-dark">Symfony</span>
+        <span class="badge bg-primary">Angular</span>
+        <span class="badge bg-dark">MySQL</span>
+        <span class="badge bg-success">JavaScript</span>
+        <span class="badge bg-info">Ajax</span>
+        <span class="badge bg-dark">MongoDB</span>
+        <span class="badge bg-secondary">REST APIs</span>
+        <span class="badge bg-danger">Payment Gateways</span>
+        <span class="badge bg-info text-dark">Postman</span>
+        <span class="badge bg-primary">chatGPT</span>
+        <span class="badge bg-success">MVC</span>
+        <span class="badge bg-warning text-dark">Elasticsearch</span>
+        <span class="badge bg-dark">Git & GitHub</span>
+      </div>
     </div>
+  </section>
 
-    <div class="project-card">
-      <h3>Fleet Cabin System</h3>
-      <p>A fleet management system developed using PHP, MySQL, Elasticsearch, Git, Chrome Extensions, and REST APIs with CodeIgniter.</p>
-      <ul>
-         <li>Company login system</li> 
-        <li>Car booking management</li>
-        <li>Invoice and report generation</li>
-      </ul>
-      <a href="https://app.fleetcabin.com/">Live Demo</a> |
-      <a href="#">GitHub Repo</a>
-    </div>
-	
-	
-	<div class="project-card">
-      <h3>Doobert.com - Animal Rescue Coordination Plateform</h3>
-      <p>An animal rescue coordination system developed using PHP, MySQL, CodeIgniter, Bootstrap, HTML, CSS, and JavaScript.</p>
-      <ul>
-         <li>User login and registration</li>
-        <li>Animal rescue management system</li>
-      </ul>
-      <a href="https://app.doobert.com/">Live Demo</a> |
-      <a href="#">GitHub Repo</a>
-    </div>
-	
-	
-	<div class="project-card">
-      <h3>Gaurav Diamondzz - B2B Diamond Inventory Management</h3>
-      <p>A global platform for live diamond inventory checking, designed for jewelers and retailers.
+  <!-- Projects Section -->
+  <section class="py-5" id="projects">
+    <div class="container">
+      <h2 class="mb-4">Projects</h2>
+      <div class="row g-4">
+
+        <!-- Project Card -->
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Employee Management System</h5>
+              <p class="card-text">An employee management application built using Angular, TypeScript, Bootstrap, HTML, CSS, and REST APIs.</p>
+              <ul>
+                <li>User login and registration</li>
+				<li>Manage employees and their assigned projects</li>	
+              </ul>
+              <a href="#" class="btn btn-outline-primary btn-sm">Live Demo</a>
+              <a href="https://github.com/technosadique/angular19/tree/master/employee_app" class="btn btn-outline-secondary btn-sm">GitHub Repo</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Repeat for other projects -->
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Fleet Cabin System</h5>
+              <p class="card-text">A fleet management system developed using PHP, MySQL, Elasticsearch, Git, Chrome Extensions, and REST APIs with CodeIgniter.</p>
+              <ul>
+                <li>Company login system</li>
+                <li>Car booking management</li>
+                <li>Invoice and report generation</li>
+              </ul>
+              <a href="https://app.fleetcabin.com/" class="btn btn-outline-primary btn-sm">Live Demo</a>
+              <a href="#" class="btn btn-outline-secondary btn-sm">GitHub Repo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Doobert.com - Animal Rescue Coordination Plateform</h5>
+              <p class="card-text">An animal rescue coordination system developed using PHP, MySQL, CodeIgniter, Bootstrap, HTML, CSS, and JavaScript</p>
+              <ul>
+                <li>User login and registration</li>
+                <li>Animal rescue management system</li>
+              </ul>
+              <a href="https://app.doobert.com/" class="btn btn-outline-primary btn-sm">Live Demo</a>
+              <a href="#" class="btn btn-outline-secondary btn-sm">GitHub Repo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Gaurav Diamondzz - B2B Diamond Inventory Management</h5>
+              <p class="card-text">A global platform for live diamond inventory checking, designed for jewelers and retailers.
         Built using PHP, MySQL, Symfony, HTML, CSS, and JavaScript.</p>
-      <ul>        
-        
-      <a href="https://www.instagram.com/gauravdiamonds/">Live Demo</a> |
-      <a href="#">GitHub Repo</a>
+              
+              <a href="https://www.instagram.com/gauravdiamonds/" class="btn btn-outline-primary btn-sm">Live Demo</a>
+              <a href="#" class="btn btn-outline-secondary btn-sm">GitHub Repo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Wordsmith - E-learning Platform</h5>
+              <p class="card-text">Wordsmith is an e-learning platform developed using PHP, MySQL, HTML, CSS, and JavaScript.</p>
+              <ul>
+                <li>Secure login and registration system</li>
+                <li>Online course learning functionality</li>
+                <li>Users can download course materials without attending in-person classes</li>
+              </ul>
+              <a href="#" class="btn btn-outline-primary btn-sm">Live Demo</a>
+              <a href="#" class="btn btn-outline-secondary btn-sm">GitHub Repo</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
-	
-	<div class="project-card">
-      <h3>Wordsmith - E-learning Platform</h3>
-      <p>Wordsmith is an e-learning platform developed using PHP, MySQL, HTML, CSS, and JavaScript.</p>
-      <ul>        
-        <li>Secure login and registration system</li>
-        <li>Online course learning functionality</li>
-        <li>Users can download course materials without attending in-person classes</li>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="bg-dark text-white py-5" id="contact">
+    <div class="container">
+      <h2 class="mb-4">Contact Me</h2>
+      <ul class="list-unstyled">
+        <li><i class="bi bi-envelope-fill me-2"></i><strong>Email:</strong> <a href="mailto:sadiqueblr@yahoo.com" class="text-white">sadiqueblr@yahoo.com</a></li>
+        <li><i class="bi bi-telephone-fill me-2"></i><strong>Phone:</strong> +91-8850180646</li>
+        <li><i class="bi bi-linkedin me-2"></i><strong>LinkedIn:</strong> <a href="#" class="text-white">linkedin.com/in/mohammadsadique</a></li>
+        <li><i class="bi bi-github me-2"></i><strong>GitHub:</strong> <a href="https://github.com/technosadique" class="text-white">github.com/sadique</a></li>
       </ul>
-      <a href="https://www.instagram.com/gauravdiamonds/">Live Demo</a> |
-      <a href="#">GitHub Repo</a>
     </div>
-	
-	
-	
-	
   </section>
 
-  <section id="contact" class="container">
-    <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:sadiqueblr@yahoo.com">sadiqueblr@yahoo.com</a></p>
-    <p>Phone: +91-8850180646</p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
-    <p>GitHub: <a href="https://github.com/technosadique" target="_blank">github.com/sadique</a></p>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Mohammed Sadique.</p>
+  <!-- Footer -->
+  <footer class="text-center py-3 bg-light">
+    <p class="mb-0">&copy; 2025 Mohammad Sadique.</p>
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
